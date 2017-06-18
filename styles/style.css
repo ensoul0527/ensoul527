@@ -1,6 +1,11 @@
 p,li {
   color: darkorange;
 }
-h1 {
-    color: cyan
+h1 {color: aqua}
+h1 {font-size: 60px}
+body {margin-left: 125px}
+body {
+  width: 1600px;
+  background-color: azure;
+  padding: 0 20px 20px 20px;
 }
