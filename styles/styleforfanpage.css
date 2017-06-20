@@ -1,8 +1,8 @@
 li {font-size: 60px    ;font-family: Malgun Gothic,Microsoft JhengHei}
-body{width: 1920px
-;height: 1080px}
+body{width:auto
+;height: auto}
 input{position: absolute;
 top:55px;
 left:750px;
 font-size: 20px}
-body {margin-left: 45px}
+li {margin-left: 45px}
