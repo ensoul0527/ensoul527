@@ -1,6 +1,7 @@
 li {font-size: 60px    ;font-family: Malgun Gothic,Microsoft JhengHei}
 body{width:auto
-;height: auto}
+;height: auto;
+background-color:azure}
 input{position: absolute;
 top:55px;
 left:750px;

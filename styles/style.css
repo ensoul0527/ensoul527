@@ -4,7 +4,8 @@ p,li {
 h1 {color: lawngreen;
     font-size: 60px
 ;font-family:Microsoft YaHei ,Malgun Gothic,serif}
-body {margin-left: 90px}
+body {margin-left: 45px
+;margin-right: 45px}
 h2 {color: darkorange}
 h3{ color: red;
 font-size: 25px}
@@ -13,12 +14,12 @@ font-family: Microsoft JhengHei}
 .p1{color:lawngreen}
 .p1{text-align: center}
 body {
-  width: 2000px;
+  width: 1830px;
   background-color: azure;
   padding: 0 20px 20px 20px;
 }
 .K1 {font-size: 30px;font-family:Malgun Gothic,Microsoft JhengHei
     }
-.K2 {font-size: 20px;font-family:Malgun Gothic,Microsoft JhengHei;position:absolute;top:70px;left:1400px}
-.K3 {font-size: 20px;font-family:Malgun Gothic,Microsoft JhengHei;position: absolute;top:70px;left:1550px}
+.K2 {font-size: 20px;font-family:Malgun Gothic,Microsoft JhengHei;position:absolute;top:70px;left:1200px}
+.K3 {font-size: 20px;font-family:Malgun Gothic,Microsoft JhengHei;position: absolute;top:70px;left:1300px}
 h2{font-size: 30px;font-family:Microsoft YaHei ,Malgun Gothic,serif}
