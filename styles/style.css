@@ -3,23 +3,23 @@ p,li {
 }
 h1 {color: lawngreen;
     font-size: 60px
-;font-family:Microsoft YaHei ,Malgun Gothic,serif}
-body {margin-left: 45px
-;margin-right: 45px}
-h2 {color: darkorange}
+;font-family:Microsoft YaHei ,Malgun Gothic,serif
+}
+body {margin-left:45px 
+}
+h2 {color: darkorange;}
 h3{ color: red;
-font-size: 25px}
+font-size: 25px;text-align: center}
 .p1{font-size: 30px;
 font-family: Microsoft JhengHei}
 .p1{color:lawngreen}
 .p1{text-align: center}
 body {
-  width: 1830px;
+  width: 1700px;
   background-color: azure;
-  padding: 0 20px 20px 20px;
-}
+  }
 .K1 {font-size: 30px;font-family:Malgun Gothic,Microsoft JhengHei
     }
-.K2 {font-size: 20px;font-family:Malgun Gothic,Microsoft JhengHei;position:absolute;top:70px;left:1200px}
-.K3 {font-size: 20px;font-family:Malgun Gothic,Microsoft JhengHei;position: absolute;top:70px;left:1300px}
+.K2 {font-size: 20px;font-family:Microsoft JhengHei;position:absolute;top:70px;left:1500px}
+.K3 {font-size: 20px;font-family:Malgun Gothic,Microsoft JhengHei;position: absolute;top:70px;left:1600px}
 h2{font-size: 30px;font-family:Microsoft YaHei ,Malgun Gothic,serif}
