@@ -17,6 +17,25 @@
       <p>시진:NaverX Despatch</p>
       <a class=K2 href="index.html">中</a>
       <a class=K3 href="index-kor.html">kor</a>
-      <audio src="music/WJSN_HAPPY.webm" controls="controls"></audio>   
+      
+    <dit class="audio">
+     <audio id="HAPPY"src="music/WJSN_HAPPY.webm" controls="controls" autoplay></audio>
+     <p class="R">Click the buttons to get or set the volume of the audio player.</p>
+<button onclick="setwVolume()" type="button">set volume to 0.2?</button>
+<button onclick="setHalfVolume()" type="button">Set volume to 0.5</button>
+<button onclick="setFullVolume()" type="button">Set volume to 1.0</button>
+<script>
+var x = document.getElementById("HAPPY");
+function setwVolume() { 
+    x.volume=0.2
+} 
+function setHalfVolume() { 
+    x.volume = 0.5;
+}
+function setFullVolume() { 
+    x.volume = 1.0;
+} 
+</script> 
+      </dit>
   </body>
 </html>
