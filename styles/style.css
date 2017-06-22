@@ -63,4 +63,5 @@ h2{
     vertical-align: middle;        
 }
 a:link{color: aqua}
+a:visited{color:darkcyan}
 a:hover{color:darksalmon}
