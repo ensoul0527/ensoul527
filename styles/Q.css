@@ -1,0 +1,17 @@
+body{
+    height: 900px;
+    background-image: url(/images/98527.jpg);
+    background-repeat: no-repeat;
+    margin: 0px
+}
+h2{
+    color: red;
+    font-size: 40px;
+    margin: 0px
+}
+a{font-size: 25px
+}
+div{margin-top: 0px}
+a:visited{color:cornflowerblue}
+a:hover{color: cadetblue}
+.A{ position: absolute;top:10px;left:400px}

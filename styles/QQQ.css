@@ -1,3 +1,6 @@
+
+.video{position: absolute
+;left: 628px}
 .title{
     background-color:#DEFFFF  ; 
     position: fixed;
@@ -47,19 +50,4 @@ line-height: 60px;
 .XX:hover{
     color: darkcyan
 }
-.content{
-    position: absolute;
-    top:100px
-}
-li {
-    font-size: 60px;
-    font-family: Malgun Gothic,Microsoft JhengHei
-}
-body{
-    width:auto;
-    height: auto;
-    background-color:azure;
-}
-li {
-    margin-left: 45px
-}
+body{margin: 0px}
