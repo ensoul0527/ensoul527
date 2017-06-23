@@ -1,13 +1,152 @@
+.title{
+    background-color: azure;
+    position: fixed;
+    top:0px;
+    right: 0px;
+    box-sizing: border-box;
+    color: rgb(85, 85, 85);
+    display: block;
+    font-family: "Dosis","Apple SD Gothic Neo","Nanum Gothic","Malgun Gothic","돋움",Dotum,"Lucida Sans","Trebuchet MS",Arial,Tahoma,sans-serif;
+    font-size: 14px;
+    height: 90px;
+    left: 0px;
+    line-height: 20px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 9;
+    -moz-text-size-adjust: none;
+}
+.logo{
+    background-color: azure;
+    bottom:15px;
+    box-sizing: border-box;
+    font-family:"Dosis","Apple SD Gothic Neo","Nanum Gothic","Malgun Gothic","돋움",Dotum,"Lucida Sans","Trebuchet MS",Arial,Tahoma,sans-serif;
+    font-size: 14px;
+    left: 45px;
+    line-height: 20px;
+    margin:0px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding:0px;
+    position: absolute;
+    width: 856.35px;
+    z-index: 9;
+    -moz-text-size-adjust: none;
+}
+.XX{
+box-sizing: border-box;
+display: block;
+font-family: "Dosis","Apple SD Gothic Neo","Nanum Gothic","Malgun Gothic","돋움",Dotum,"Lucida Sans","Trebuchet MS",Arial,Tahoma,sans-serif;
+font-size: 60px;
+height: 60px;
+line-height: 60px;
+}
+.XX:hover{
+    color: darkcyan
+}
+.language{
+    box-sizing: border-box;
+    bottom:37.5px;
+    position: absolute;
+    left:1700px;
+    width: 300px;
+    height: 15px;
+    line-height:15px;
+    display: block
+}
+.K2 {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family:Microsoft JhengHei;
+    display: block;
+    z-index: 10
+}
+.language1{
+    box-sizing: border-box;
+    bottom:37.5px;
+    position: absolute;
+    left:1780px;
+    width: 300px;
+    height: 15px;
+    line-height:15px;
+    display: block
+}
+.K3 {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family:Malgun Gothic,Microsoft JhengHei;
+    display: block;
+    position: absolute;
+}
+.audio{
+    box-sizing: border-box;
+    display: block;
+	position: absolute;
+	top: 25px;
+	left: 1000px;
+	height: 40px;
+    bottom:25px;
+}
+.volume{
+    box-sizing: border-box;
+    position: absolute;
+    height: 40px;
+    top:25px;
+    bottom:25px;
+    left:1300px;
+    width: 250px
+}
+#L{
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 0px;
+    position:inherit;
+    height:24px;
+    width:50px;
+    top:8px;
+    }
+#M{
+    font-size: 12px;
+    box-sizing: border-box;
+    position: inherit;
+    height:24px;
+    width:50px;
+    top:8px;
+    left:55px
+    }
+#H{
+    font-size: 12px;
+    box-sizing: border-box;
+    padding:0px;
+    position: inherit;
+    height:24px;
+    width:50px;
+    top:8px;
+    left:110px
+    }
+
+.content{
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    top:90px;
+}
+h2 {
+    box-sizing: border-box;
+    color: darkorange;
+    margin: 0px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    
+}
 p,li {
   color: darkorange;
 }
-h1 {color: lawngreen;
-    font-size: 60px;
-    font-family:Microsoft YaHei ,Malgun Gothic,serif
-}
-h2 {
-    color: darkorange
-}
+
 h3{ color: red;
     font-size: 25px;
     text-align:center
@@ -19,40 +158,27 @@ h3{ color: red;
     vertical-align: middle
 }
 body{
-  width: 1700px;
+  width: 1903px;
   background-color: azure;
   margin-top: 0px;margin-left: 45px ;margin-right: 45px
 }
 .K1 {
+    box-sizing: border-box;
     font-size: 30px;
-    font-family:Malgun Gothic,Microsoft JhengHei
-}
-.K2 {
-    font-size: 20px;
-    font-family:Microsoft JhengHei;
-    position:absolute;
-    top:60px;
-    left:1500px
-}
-.K3 {
-    font-size: 20px;
     font-family:Malgun Gothic,Microsoft JhengHei;
-    position: absolute;
-    top:60px;
-    left:1600px
 }
+
+
+
+
 h2{
     font-size: 30px;
     font-family:Microsoft YaHei ,Malgun Gothic,serif
 }
-.R{margin: 0px
+.R{
+    margin: 0px
 }
-.audio{
-	position: absolute;
-	top: 39px;
-	left: 997px;
-	height: 130px;
-	}
+
 #Z,#X{
     align-content: center;
     vertical-align: middle;
@@ -62,6 +188,18 @@ h2{
     text-align:center;
     vertical-align: middle;        
 }
-a:link{color: aqua}
-a:visited{color:darkcyan}
-a:hover{color:darksalmon}
+
+
+
+a:link{
+    color: aqua
+}
+a:visited{
+    color:darkcyan
+}
+a:hover{
+    color:darksalmon
+}
+*{
+    text-decoration: none
+}

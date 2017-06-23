@@ -7,10 +7,38 @@
     <title>just love eunseo </title>
   </head>
   <body>
-      <link href="styles/style.css" rel="stylesheet" type="text/css">
-      
-      <h1>×WJSN×EunSeo 비타민 TW</h1>
-      
+      <header class="title">
+        <div class=logo>
+            <a class="XX" href="index.html"><strong>×WJSN×EunSeo 비타민 TW</strong></a>
+        </div>
+        <div class="language">
+            <a class=K2 href="index.html">中文</a>
+        </div>
+        <div class="language1">
+            <a class=K3 href="index-kor.html">한국어</a>
+        </div>
+        <div class="audio">
+            <audio id="HAPPY"src="music/WJSN_%EA%B8%B0%EC%A0%81%EA%B0%99%EC%9D%80%EC%95%84%EC%9D%B4.webm" controls autoplay></audio>
+        </div>
+        <div class="volume">
+<button id="L" onclick="setwVolume()" type="button">20%</button>
+<button id="M" onclick="setHalfVolume()" type="button">50%</button>
+<button id="H" onclick="setFullVolume()" type="button">100%</button>
+<script>
+var x = document.getElementById("HAPPY");
+function setwVolume() { 
+    x.volume=0.2
+} 
+function setHalfVolume() { 
+    x.volume = 0.5;
+}
+function setFullVolume() { 
+    x.volume = 1.0;
+} 
+</script> 
+      </div>
+    </header>
+        <div class="content">  
       <h2>처음부테 은서를 사랑하는 페이스북 팬페이지입니다.♥160227식자했습니다♥모니터만 통해서 은서를 보지만 그래도 기분이 좋아요♥입덕하는 제한가 없어요 그냥 오직 끝까지 은서를 좋아하는 마음.♥</h2>
       
       <h3>♥♥페이스북 팬페이지 링크 → <a href="https://www.facebook.com/eunseotw0527/">×WJSN×EunSeo 비타민 TW </a> ← 페이스북 팬페이지 링크♥♥</h3>
@@ -24,27 +52,6 @@
       <br>
       <img src="images/30596.jpg" alt="just love eunseo">
       <p>시진:NaverX Despatch</p>
-      <a class=K2 href="index.html">中</a>
-      <a class=K3 href="index-kor.html">kor</a>
-      
-    <dit class="audio">
-     <audio id="HAPPY"src="music/WJSN_%EA%B8%B0%EC%A0%81%EA%B0%99%EC%9D%80%EC%95%84%EC%9D%B4.webm"controls="controls" autoplay></audio>
-     <p class="R">Click the buttons to get or set the volume of the audio player.</p>
-<button onclick="setwVolume()" type="button">set volume to 0.2?</button>
-<button onclick="setHalfVolume()" type="button">Set volume to 0.5</button>
-<button onclick="setFullVolume()" type="button">Set volume to 1.0</button>
-<script>
-var x = document.getElementById("HAPPY");
-function setwVolume() { 
-    x.volume=0.2
-} 
-function setHalfVolume() { 
-    x.volume = 0.5;
-}
-function setFullVolume() { 
-    x.volume = 1.0;
-} 
-</script> 
-      </dit>
+      </div>
   </body>
 </html>
