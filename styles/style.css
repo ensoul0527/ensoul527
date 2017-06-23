@@ -1,5 +1,5 @@
 .title{
-    background-color: azure;
+    background-color:#DEFFFF  ; 
     position: fixed;
     top:0px;
     right: 0px;
@@ -19,7 +19,6 @@
     -moz-text-size-adjust: none;
 }
 .logo{
-    background-color: azure;
     bottom:15px;
     box-sizing: border-box;
     font-family:"Dosis","Apple SD Gothic Neo","Nanum Gothic","Malgun Gothic","돋움",Dotum,"Lucida Sans","Trebuchet MS",Arial,Tahoma,sans-serif;
@@ -128,12 +127,12 @@ line-height: 60px;
     top:8px;
     left:110px
     }
-
 .content{
     box-sizing: border-box;
     display: block;
     position: absolute;
     top:90px;
+    width:1858px
 }
 h2 {
     box-sizing: border-box;
@@ -146,7 +145,6 @@ h2 {
 p,li {
   color: darkorange;
 }
-
 h3{ color: red;
     font-size: 25px;
     text-align:center
@@ -167,9 +165,6 @@ body{
     font-size: 30px;
     font-family:Malgun Gothic,Microsoft JhengHei;
 }
-
-
-
 
 h2{
     font-size: 30px;
